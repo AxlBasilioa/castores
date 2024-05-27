@@ -71,7 +71,15 @@ spring.jpa.hibernate.ddl-auto=update
 ```
 3. **Ejecucion de la aplicacion**
 - la ejecuin de la aplicacion require buscar la anotacion principal de `@SprinbBootApplication`, o posicionarse dentro de `src/main/java` y buscar el metodo main dentro de `CastoresinverviewApplication.java` y ejecutar este metodo main
-
+- las credenciales de prueba para tipos de usuarios son
+  ```bash
+  admin
+  mail:axlbasilioa@gmail.com
+  password:123
+  general
+  mail:example@gmail.com
+  password:321
+  ```
 # Notas Adicionales
 - Asegurarse de que el servidor SQL este corriendo y escuchando en el peurto 3307
 - Si se cuentran errores en el entorno de desarrollo, revisar logs o el proyecto es abierto a recibir retroalimentaciones e issues
