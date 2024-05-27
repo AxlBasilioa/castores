@@ -1,0 +1,23 @@
+<section id="logs">
+  <table>
+    <thead>
+      <tr>
+        <th scope="col">ID</th>
+        <th scope="col">Query</th>
+        <th scope="col">TimeStamp</th>
+        <th scope="col">DateTime</th>
+        <th scope="col">Usuario</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr *ngFor="let item of data">
+        <td scope="col">{{item.idLogs}}</td>
+        <td scope="col">{{item.query}}</td>
+        <td scope="col">{{item.timestamp}}</td>
+        <td scope="col">{{item.datetime}}</td>
+        <td scope="col">{{item.idUsuario}}</td>
+      </tr>
+      <!-- Añade más filas aquí según sea necesario -->
+    </tbody>
+  </table>
+</section>

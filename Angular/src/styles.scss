@@ -1,0 +1,124 @@
+:root{
+    --secondary-color: #ffcc00;
+    --background-color: #f8f9fa;
+    --text-color: #333;
+    
+    --primary-red-1000: #C71518;
+    --primary-red-900: #D24041;
+    --primary-red-800: #DD6A6A;
+    --primary-red-700: #E89493;
+    --primary-red-600: #F3BEBE;
+    --primary-red-500: #FFD9D9;
+    --primary-red-400: #FFE5E5;
+    --primary-red-300: #FFF2F2;
+    --primary-red-200: #FFF8F8;
+    --primary-red-100: #FFFCFC;
+    
+    --default-action-1000: #0054e9;
+    --default-action-900: #336fe9;
+    --default-action-800: #668be9;
+    --default-action-700: #99a6e9;
+    --default-action-600: #ccd2f0;
+    --default-action-500: #d9e0f3;
+    --default-action-400: #e5e7f6;
+    --default-action-300: #f2f3f9;
+    --default-action-200: #f8f9fc;
+    --default-action-100: #fcfcfe;
+
+    --color-primary: #0054e9;
+	--color-primary-rgb: 0,84,233;
+	--color-primary-contrast: #ffffff;
+	--color-primary-contrast-rgb: 255,255,255;
+	--color-primary-shade: #004acd;
+	--color-primary-tint: #1a65eb;
+
+	--color-secondary: #0163aa;
+	--color-secondary-rgb: 1,99,170;
+	--color-secondary-contrast: #ffffff;
+	--color-secondary-contrast-rgb: 255,255,255;
+	--color-secondary-shade: #015796;
+	--color-secondary-tint: #1a73b3;
+
+	--color-tertiary: #6030ff;
+	--color-tertiary-rgb: 96,48,255;
+	--color-tertiary-contrast: #ffffff;
+	--color-tertiary-contrast-rgb: 255,255,255;
+	--color-tertiary-shade: #542ae0;
+	--color-tertiary-tint: #7045ff;
+
+	--color-success: #2dd55b;
+	--color-success-rgb: 45,213,91;
+	--color-success-contrast: #000000;
+	--color-success-contrast-rgb: 0,0,0;
+	--color-success-shade: #28bb50;
+	--color-success-tint: #42d96b;
+
+	--color-warning: #ffc409;
+	--color-warning-rgb: 255,196,9;
+	--color-warning-contrast: #000000;
+	--color-warning-contrast-rgb: 0,0,0;
+	--color-warning-shade: #e0ac08;
+	--color-warning-tint: #ffca22;
+
+	--color-danger: #c5000f;
+	--color-danger-rgb: 197,0,15;
+	--color-danger-contrast: #ffffff;
+	--color-danger-contrast-rgb: 255,255,255;
+	--color-danger-shade: #ad000d;
+	--color-danger-tint: #cb1a27;
+    //colores simples
+    --color-light: #d8dade;
+	--color-light-rgb: 246,248,252;
+	--color-light-contrast: #000000;
+	--color-light-contrast-rgb: 0,0,0;
+	--color-light-shade: #d8dade;
+	--color-light-tint: #f7f9fc;
+}
+html, body {
+    font-family: "Haas Grot Text R Web", "Helvetica Neue", Helvetica, Arial, sans-serif;
+    font-size: 14px;
+    display: flex;
+    margin: 0;
+    padding: 0;
+    width: 100%;
+    height: 100%;
+    font-size: large;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+
+  }
+  table{
+    margin:2vh;
+    width: 80%;
+}
+tr {
+    border-top: 1px solid #C1C3D1;
+    border-bottom: 1px solid #C1C3D1;
+    color:#666B85;
+    font-size:16px;
+    font-weight:normal;
+    text-shadow: 0 1px 1px rgba(256, 256, 256, 0.1);
+
+  }  
+  th, td {
+    box-shadow: 3px 5px 5px -3px rgba(0, 0, 0, 0.3);
+    border-radius: 5px;
+    padding: 10px 20px;
+  }
+th {
+    color:#D5DDE5;;
+    background:#1b1e24;
+    border-bottom:4px solid #9ea7af;
+    border-right: 1px solid #343a45;
+    font-family: "Haas Grot Text R Web", "Helvetica Neue", Helvetica, Arial, sans-serif;
+    font-size: 14px;
+    font-weight: 100;
+    padding:1vh;
+    text-align:left;
+    text-shadow: 0 1px 1px rgba(0, 0, 0, 0.1);
+    vertical-align:middle;
+  }
+  tr:hover td {
+    background:#4E5066;
+    color:#FFFFFF;
+    border-top: 1px solid #22262e;
+  }

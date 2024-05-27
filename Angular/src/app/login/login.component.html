@@ -1,0 +1,9 @@
+<section id="login-form">
+    <p>Iniciar sesion</p>
+    <input id="input-correo" class="correo" placeholder="Correo" type="text" [(ngModel)]="correo" />
+    <input id="input-password" class="password" placeholder="Contraseña" type="password" [(ngModel)]="password" />
+    <div>
+        <!-- HTML !-->
+        <button class="button" role="button" (click)="onLogin()">Iniciar sesion</button>
+    </div>
+</section>

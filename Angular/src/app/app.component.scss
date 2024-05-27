@@ -1,0 +1,40 @@
+#nav-bar{
+    font-size: 2vh;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    display: flex;
+    position: fixed;
+    z-index: 1000;
+    position: absolute;
+    background: var(--primary-red-800);
+    margin:0;
+    padding:0;
+    width: 100%;
+    justify-content: space-around;
+    align-items: center;
+    user-select: none;
+    cursor: pointer;
+}
+#logo{
+    height: 2rem;
+    margin: 1vh;
+}
+#nav-links{
+    display: flex;
+}
+#nav-bar a{
+    color:aliceblue;
+    text-decoration: none;
+    padding: 15px;
+}
+#nav-bar a:hover{
+    background: var(--primary-red-900);
+}
+#nav-bar a:active{
+    background: var(--primary-red-700);
+}
+#nav-bar a.active{
+    background: var(--primary-red-1000);
+}
+.hidden{
+    display:none;
+}
